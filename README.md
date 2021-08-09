@@ -23,7 +23,4 @@ curl http://localhost/test - возвращает html-страницу
 
 curl http://localhost/data - возвращает html-страницу со списком данных
 
-curl http://localhost/data -d "a" - добавляет данные в список
-curl http://localhost/data -d "b" 
-curl http://localhost/data -d "c"
-curl http://localhost/data -d "d"
+curl http://localhost/data -d "abc" - добавляет данные в список
